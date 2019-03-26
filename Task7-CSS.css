@@ -196,7 +196,7 @@ p {
 }
 
   /* other */
-a[href*="http"] {
+#link2-link[href*="http"], #link1-link[href*="http"]{
     padding-right: 1.5vw;
     background: url(Task7-ExternalLink.png) no-repeat 100% 0;
     background-size: 1.1vw 1.1vw;
@@ -219,4 +219,9 @@ a[href*="http"] {
 
 #percentage {
   font-size: 1vw;
+}
+
+#Git-Hub-Link {
+  color: red;
+  text-decoration: none;
 }
